@@ -1,0 +1,11 @@
+python main.py \
+--gpu 1 \
+--pipeline=multi_teacher \
+--teacher resnet8_t \
+--student resnet8 \
+--dataset cifar10 --unlabeled cifar10 \
+--epochs 400 --fp16 \
+--ckpt_path /path/to/saveckpts/ \
+--T 10001.0 --alpha 1.0 --seed 1 --fixed_lr \
+--logfile test --use_maxIters \
+--from_teacher_ckpt /path/to/teacher_ckpts/ 
