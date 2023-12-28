@@ -40,3 +40,13 @@ bash scripts/train_a1_s1_c100.sh
 ```
 
 **Note**: Please replace `--from_teacher_ckpt /path/to/teacher_ckpts/` to your pretrained teachers path in the shell scripts.
+
+If you found our work helpful, please cite us:
+```
+@article{gong2023federated,
+  title={Federated Learning via Input-Output Collaborative Distillation},
+  author={Gong, Xuan and Li, Shanglin and Bao, Yuxiang and Yao, Barry and Huang, Yawen and Wu, Ziyan and Zhang, Baochang and Zheng, Yefeng and Doermann, David},
+  journal={arXiv preprint arXiv:2312.14478},
+  year={2023}
+}
+```
