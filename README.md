@@ -1,5 +1,6 @@
 # Federated Learning via Input-Output Collaborative Distillation
 
+[arXiv](https://arxiv.org/pdf/2312.14478.pdf)
 The implementation for FedIOD on the CIFAR-10/CIFAR-100 datasets. We'll release all the code to public soon.
 
 ### Abstract
